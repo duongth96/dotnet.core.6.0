@@ -1,0 +1,71 @@
+﻿{
+   "CodeGenerationMode": 2,
+   "ContextClassName": "IC_BASEContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Models",
+   "ProjectRootNamespace": "EA.Core.Domain",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 1,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "[core].[PERMISSIONS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[core].[PRIVILEGES]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[core].[RES_ATTRIBUTES]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[core].[RESOURCES]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[core].[ROLE_PRIVILEGES]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[core].[ROLES]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[core].[USER_PRIVILEGES]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[core].[USER_ROLES]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[core].[USERS]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": "e7ce77453a07.IC_BASE",
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": true,
+   "UseManyToManyEntity": false,
+   "UseNoConstructor": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSpatial": false
+}

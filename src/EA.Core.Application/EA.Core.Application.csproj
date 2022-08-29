@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="MassTransit" Version="8.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EA.Core.Domain\EA.Core.Domain.csproj" />
+    <ProjectReference Include="..\EA.Core.Infra\EA.Core.Infra.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="EA.NetDevPack">
+      <HintPath>..\Libraries\EA.NetDevPack.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
